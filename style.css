@@ -1520,8 +1520,8 @@ background-color: #F3F3F3;
     width: 250px;
     border: 1px solid rgb(199, 199, 199);
     position: absolute;
-  left: 60px;
-    top: 260px;
+  left: 180px;
+    top: 320px;
     border-radius: 10px;
     background-color: white;  
 }
@@ -1529,7 +1529,7 @@ background-color: #F3F3F3;
     height: auto;
     width: 80%;
     position: absolute;
-left: 25px;
+left: 70px;
 top: 70%;
 }
 .posts{
@@ -1537,7 +1537,7 @@ top: 70%;
 }
 .uppersection{
     height: 150px;
-    width: 95%;
+    width: 97%;
     background-color: white;
     border-radius: 10px;
     display: flex;
