@@ -1242,7 +1242,7 @@ background-color: #F3F3F3;
 
 
 
-@media (max-width:1024px) {
+@media (min-width:600px) and (max-width:1024px) {
     .navbar{
         flex-direction: column;
         height: auto;
@@ -1338,7 +1338,7 @@ background-color: #F3F3F3;
     }
     .icons2 i{
         font-size: 22px;
-    padding-left: 15px;
+    padding-left: 20px;
     }
     
     .icons2 p{
@@ -1553,4 +1553,10 @@ top: 70%;
 .leftsection1{
     display: none;
 }
+}
+
+@media (max-width:599px) {
+    body{
+        display: none;
+    }
 }
