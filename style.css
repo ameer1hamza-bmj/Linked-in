@@ -1122,7 +1122,78 @@ background-color: #F3F3F3;
 .box4 p{
     color: #181818;
 }
-
+.lastsection{
+    position: fixed;
+    border: 1px solid black;
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    bottom: 0;
+    right: 10px;
+}
+.last2{
+    border: 1px solid red;
+    height: 50px;
+    width: 250px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    cursor: pointer;
+}
+.last2 img{
+    position: absolute;
+    width: 40px;
+    top: 10%;
+    left: 5%;
+}
+.last2 p{
+    color: #2f2f2f;
+    position: absolute;
+    left: 22%;
+    top: 35%;
+    font-size: 14px;
+    font-weight: bold;
+}
+.fa-ellipsis{
+    cursor: pointer;
+    padding: 5px 5px;
+    border-radius: 100%;
+    margin-right: 10px;
+    transition: 0.5s;
+    position: absolute;
+    top: 35%;
+    right: 20%;
+}
+.fa-ellipsis:hover{
+    background-color: #E5E3E3;
+}
+.fa-pen-to-square{
+    cursor: pointer;
+    padding: 5px 5px;
+    border-radius: 100%;
+    margin-right: 10px;
+    transition: 0.5s;
+    position: absolute;
+    top: 35%;
+    right: 10%;
+}
+.fa-pen-to-square:hover{
+    background-color: #E5E3E3;
+}
+.fa-chevron-up{
+    cursor: pointer;
+    padding: 5px 5px;
+    border-radius: 100%;
+    margin-right: 10px;
+    transition: 0.5s;
+    position: absolute; 
+    top: 35%;
+    right: 0;
+}
+.fa-chevron-up:hover{
+    background-color: #E5E3E3;
+}
 
 
 
